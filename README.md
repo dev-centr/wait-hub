@@ -112,6 +112,7 @@ Also: `health`, `list`, `get <wait_id>`, `--no-block` to register only. See [doc
 - [hive-watch](https://github.com/dev-centr/hive-watch) — hive remotes fetch + status (not waits)
 - [harness](https://github.com/dev-centr/harness) — first intended client
 - [docs/open-questions.md](docs/open-questions.md) — webhook relay, Cursor mid-turn wake, more adapters
+- [docs/forge-watch-push.md](docs/forge-watch-push.md) — why forge watches should prefer push over poll ([cli/cli#14410](https://github.com/cli/cli/issues/14410))
 
 <p align="right">(<a href="#wait-hub">back to top</a>)</p>
 

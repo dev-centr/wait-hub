@@ -1,0 +1,6 @@
+= 2026-09-09 - forge-watch-push note
+
+Public explanation note for why forge “watch until done” UX should prefer webhooks / push completion over periodic API poll.
+
+* Links upstream feature request https://github.com/cli/cli/issues/14410
+* Wired from README Related and open-questions (hand-off / webhook ingest)
