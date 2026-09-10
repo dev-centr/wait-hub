@@ -1,0 +1,17 @@
+﻿*
+!.gitignore
+!LICENSE
+!README.md
+!CHANGELOG.adoc
+!changelog-details/
+!changelog-details/**
+!docs/
+!docs/**
+!package.json
+!package-lock.json
+!src/
+!src/**
+!bin/
+!bin/**
+!.github/
+!.github/**

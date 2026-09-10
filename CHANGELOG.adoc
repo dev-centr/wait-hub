@@ -1,0 +1,7 @@
+= Changelog
+
+Timeline of functional changes. Detail pages under link:changelog-details[].
+
+== 2026-09-09
+
+* link:changelog-details/2026-09-09%20-%20initial%20wait-hub%20skeleton.adoc[Initial wait-hub skeleton] — general wait/event bus; GHA as adapter #1; harness CLI stub; ADRs (EE out of hot path).

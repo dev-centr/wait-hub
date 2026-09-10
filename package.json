@@ -1,0 +1,20 @@
+{
+  "name": "wait-hub",
+  "version": "0.1.0",
+  "description": "Machine-local general wait/event bus — register waits, adapters complete them (GHA = adapter #1; sibling to hive-watch)",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "waitd": "./bin/waitd.js",
+    "wait-hub": "./bin/wait-hub.js"
+  },
+  "scripts": {
+    "start": "node bin/waitd.js --serve",
+    "daemon": "node bin/waitd.js --serve",
+    "cli": "node bin/wait-hub.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

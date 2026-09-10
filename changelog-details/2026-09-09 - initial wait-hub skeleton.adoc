@@ -1,0 +1,16 @@
+= 2026-09-09 - Initial wait-hub skeleton
+
+First public skeleton of the machine-local **general wait / event bus**.
+
+== Added
+
+* `waitd` localhost daemon (IPC port 17357): service-agnostic register / list / get / block `wait_until`; GitHub ingest stub for adapter #1
+* Built-in `github.actions` adapter (API poll via `gh` / `GITHUB_TOKEN`) — first adapter, not product identity
+* `wait-hub` CLI stub (harness client): `wait github.actions --repo o/r --run-id N`
+* Machine-local artifacts under `$CODE_ROOT` (status JSON, events jsonl, per-wait files)
+* Architecture ADRs: daemon-owned adapters; equivalence-engine deferred; broad ecosystem framing (forges first, not CI-only)
+
+== Notes
+
+* Tray UI not in scope for this release
+* Webhook relay and further adapters are open questions
