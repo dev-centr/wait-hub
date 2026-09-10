@@ -110,9 +110,11 @@ Also: `health`, `list`, `get <wait_id>`, `--no-block` to register only. See [doc
 ## Related
 
 - [hive-watch](https://github.com/dev-centr/hive-watch) — hive remotes fetch + status (not waits)
+- [plan-stack](https://github.com/dev-centr/plan-stack) — speculative multi-phase wait queue (consumes wait-hub; ETA-sized stacks)
 - [harness](https://github.com/dev-centr/harness) — first intended client
 - [docs/open-questions.md](docs/open-questions.md) — webhook relay, Cursor mid-turn wake, more adapters
 - [docs/forge-watch-push.md](docs/forge-watch-push.md) — why forge watches should prefer push over poll ([cli/cli#14410](https://github.com/cli/cli/issues/14410))
+- [HCI-Nerdz plan-stack demo](https://hci-nerdz.github.io/plan-stack/) — teaching surface for speculative queues
 
 <p align="right">(<a href="#wait-hub">back to top</a>)</p>
 
