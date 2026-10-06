@@ -15,3 +15,5 @@
 !bin/**
 !.github/
 !.github/**
+!/.editorconfig
+!/.gitattributes
